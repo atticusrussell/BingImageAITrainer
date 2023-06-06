@@ -4,7 +4,7 @@
 
 ## Legal Notice <a name="legal-notice"></a>
 
-This repository is _not_ associated with or endorsed by providers of the APIs contained in this GitHub repository. This project is intended **for educational purposes only**. This is just a little personal project. 
+This repository is _not_ associated with or endorsed by providers of the websites, services, and APIs contained in this GitHub repository. This project is intended **for educational purposes only**. This is just a little personal project. 
 
 Please note the following:
 
