@@ -1,5 +1,5 @@
 # Bing Image AI Trainer
-### Getting training images for AI models can be difficult. Hopefully this tool can help you generate images to make this easier.
+### A tool for generating diverse training images using Bing Image Creator to facilitate the training of AI vision models.
 #
 
 ## Legal Notice <a name="legal-notice"></a>
