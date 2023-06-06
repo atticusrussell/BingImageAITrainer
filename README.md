@@ -17,20 +17,20 @@ The user must supply their own cookie files for Bing Image Creator, which I expl
 3. Navigate into the project directory:
 
    ```bash
-   $ cd bingimageaitrainer
+   cd bingimageaitrainer
    ```
 
 4. Create a new virtual environment:
 
    ```bash
-   $ python -m venv venv
-   $ . venv/bin/activate
+   python -m venv venv
+   . venv/bin/activate
    ```
 
 5. Install the requirements:
 
    ```bash
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 ### Getting Cookies
@@ -58,13 +58,23 @@ The user must supply their own cookie files for Bing Image Creator, which I expl
 
 1. Modify `generate_prompts.py` based on what parameters you want to vary in the generated images, what you want images of, and how many images you want from each prompt. By default, four images are generated from every prompt to Bing Image Creator. You may need to tweak the prompt system significantly to consistently generate suitable images for your application.
 
-2. Populate `prompts.json` by running `python3 generate_prompts.py`
+2. Populate `prompts.json` by running 
+```bash 
+python3 generate_prompts.py
+```
 
 3. Make sure that you have at least one Bing Image Creator cookie file in json format in the `cookies` directory
 
-4. Generate images with `python3 bic_generate.py`
+4. Generate images with 
+```bash
+python3 bic_generate.py
+```
 
-5. If the code crashes before images are generated for all prompts, run `python3 bic_generate.py` again. Don't worry; the generated images are tracked through removal from `prompts.json`, so duplicate images will not be generated.
+5. If the code crashes before images are generated for all prompts, run 
+```bash
+python3 bic_generate.py
+```
+ again. Don't worry; the generated images are tracked through removal from `prompts.json`, so duplicate images will not be generated.
 
 
 ## Legal Notice <a name="legal-notice"></a>
