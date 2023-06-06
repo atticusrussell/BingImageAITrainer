@@ -1,0 +1,3 @@
+Pillow==9.5.0
+requests==2.31.0
+BingImageCreator==0.3.1
